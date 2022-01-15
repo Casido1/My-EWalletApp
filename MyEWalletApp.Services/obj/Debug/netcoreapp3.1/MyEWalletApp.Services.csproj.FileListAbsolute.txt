@@ -1,0 +1,36 @@
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Services.deps.json
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Services.runtimeconfig.json
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Services.runtimeconfig.dev.json
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Services.dll
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Services.pdb
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.DataAccess.dll
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Models.dll
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.DataAccess.pdb
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Models.pdb
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.csproj.AssemblyReference.cache
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.AssemblyInfoInputs.cache
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.AssemblyInfo.cs
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.csproj.CopyComplete
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.dll
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.pdb
+C:\Users\Casido\OneDrive\Desktop\Decagon\Practice Projects\MyEWalletApp\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.genruntimeconfig.cache
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Services.deps.json
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Services.runtimeconfig.json
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Services.runtimeconfig.dev.json
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Services.dll
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Services.pdb
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.DataAccess.dll
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Models.dll
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.DataAccess.pdb
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\bin\Debug\netcoreapp3.1\MyEWalletApp.Models.pdb
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.csproj.AssemblyReference.cache
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.AssemblyInfoInputs.cache
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.AssemblyInfo.cs
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.csproj.CopyComplete
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.dll
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.pdb
+C:\Users\Casido\OneDrive\Desktop\week-9-Casido1\MyEWalletApp.Services\obj\Debug\netcoreapp3.1\MyEWalletApp.Services.genruntimeconfig.cache
