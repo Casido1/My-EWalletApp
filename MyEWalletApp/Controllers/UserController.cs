@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyEWalletApp.Models.DTOs;
 using MyEWalletApp.Services.Interface;
@@ -42,6 +43,7 @@ namespace MyEWalletApp.UI.Controllers
             return Ok(res);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUserByIdAsync([FromRoute] string id, [FromBody] UserToUpdate userToUpdate)
         {
@@ -49,6 +51,7 @@ namespace MyEWalletApp.UI.Controllers
             return Ok();
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUserByIdAsync([FromRoute] string id)
         {
@@ -56,6 +59,7 @@ namespace MyEWalletApp.UI.Controllers
             return Ok(result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet("")]
         public async Task<IActionResult> GetAllUsersAsync()
         {
@@ -63,6 +67,7 @@ namespace MyEWalletApp.UI.Controllers
             return Ok(users);
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUserByIdAsync([FromRoute] string id)
         {

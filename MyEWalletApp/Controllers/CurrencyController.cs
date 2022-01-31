@@ -37,6 +37,7 @@ namespace MyEWalletApp.UI.Controllers
         }
 
         [HttpGet("")]
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> GetAllCurrenciesAsync()
         {
             var res = await _curSer.GetAllCurrenciesAsync();

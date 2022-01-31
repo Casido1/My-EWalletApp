@@ -42,7 +42,7 @@ namespace MyEWalletApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContextPool<MyEWalletAppContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MyEWalletAppDb")));
+            services.AddDbContextPool<MyEWalletAppContext>(options => options.UseSqlite(Configuration.GetConnectionString("MyEWalletAppDb")));
             services.AddIdentity<AppUser, IdentityRole>()
                 .AddEntityFrameworkStores<MyEWalletAppContext>()
                 .AddDefaultTokenProviders();
@@ -110,7 +110,7 @@ namespace MyEWalletApp
                 option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             }).AddJwtBearer(option => {
                 var param = new TokenValidationParameters();
-                param.IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:SecretKey"]));
+                param.IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Key"]));
                 param.ValidateIssuer = false;
                 param.ValidateAudience = false;
                 option.TokenValidationParameters = param;

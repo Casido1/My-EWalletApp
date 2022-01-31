@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyEWalletApp.Models.DTOs;
 using MyEWalletApp.Services.Interface;
@@ -20,6 +21,7 @@ namespace MyEWalletApp.UI.Controllers
             _walService = walService;
         }
 
+        [Authorize(Roles="Admin, Elite")]
         [HttpPost("")]
         public async Task<IActionResult> CreateWalletAsync([FromBody] WalletToAdd walletToAdd)
         {
@@ -27,12 +29,15 @@ namespace MyEWalletApp.UI.Controllers
             return Ok(res);
         }
 
+        [Authorize(Roles = "Admin, Elite")]
         [HttpDelete("{walletid}")]
         public async Task<IActionResult> DeleteWalletAsync([FromRoute] string walletid)
         {
             var res = await _walService.DeleteWalletAsync(walletid);
             return Ok(res);
         }
+
+        [Authorize]
         [HttpPost("{walletid}/{currencycode}")]
         public async Task<IActionResult> AddWalletCurrencyAsync([FromRoute] string walletid, [FromRoute] string currencycode)
         {
@@ -40,6 +45,7 @@ namespace MyEWalletApp.UI.Controllers
             return Ok(res);
         }
 
+        [Authorize]
         [HttpGet("wallets/{userid}")]
         public async Task<IActionResult> GetAllUserWalletsAsync([FromRoute] string userid)
         {
@@ -47,6 +53,7 @@ namespace MyEWalletApp.UI.Controllers
             return Ok(res);
         }
 
+        [Authorize]
         [HttpGet("{userid}/{walletid}")]
         public async Task<IActionResult> GetWalletAsync([FromRoute] string userid, [FromRoute] string walletid)
         {
@@ -54,6 +61,7 @@ namespace MyEWalletApp.UI.Controllers
             return Ok(res);
         }
 
+        [Authorize]
         [HttpGet("balance/{userid}")]
         public async Task<IActionResult> UserBalanceAsync([FromRoute] string userid)
         {
@@ -61,6 +69,7 @@ namespace MyEWalletApp.UI.Controllers
             return Ok(res);
         }
 
+        [Authorize]
         [HttpGet("{walletid}")]
         public async Task<IActionResult> WalletBalance([FromRoute] string walletid)
         {
